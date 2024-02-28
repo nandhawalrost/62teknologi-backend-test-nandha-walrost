@@ -1,4 +1,8 @@
-### Create
+#### -----------------------------------------------
+##### *Database is on 'database_mysql' folder
+#### -----------------------------------------------
+
+### Create:
 #### localhost:3000/business (method:POST)
 ```sh
 {
@@ -23,8 +27,9 @@
     "offset" : 1
 }
 ```
+### --
 
-### Update
+### Update:
 #### localhost:3000/business/id (method:PUT)
 
 ```sh
@@ -50,14 +55,19 @@
     "offset" : 2
 }
 ```
+### --
 
-### Delete
+### Delete:
 #### localhost:3000/business/id (method:DEL)
 
-### Search
+### --
+
+### Search:
 #### localhost:3000/business/search/test/jakarta/123/321/333 (method:GET)
 
-#### Another Example of Search without Location Parameter
+#### Another Example of Search without Location Parameter:
 #### localhost:3000/business/search/test//123/321/333 (method:GET)
+
+### --
 
 ### ** For delete and search no request body needed, will return response 200 if succeed
