@@ -1,3 +1,5 @@
+## URL & Request Body
+
 #### -----------------------------------------------
 ##### *Database is on 'database_mysql' folder
 #### -----------------------------------------------
@@ -57,6 +59,10 @@
 ```
 ### --
 
+### ** For delete and search no request body needed, will return response 200 if succeed
+
+### --
+
 ### Delete:
 #### localhost:3000/business/id (method:DEL)
 
@@ -67,7 +73,3 @@
 
 #### Another Example of Search without Location Parameter:
 #### localhost:3000/business/search/test//123/321/333 (method:GET)
-
-### --
-
-### ** For delete and search no request body needed, will return response 200 if succeed
