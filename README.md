@@ -69,7 +69,7 @@
 ### --
 
 ### Search:
-#### localhost:3000/business/search/test/jakarta/123/321/333 (method:GET)
+#### localhost:3000/business/search/term/location/latitude/longitude/radius (method:GET)
 
-#### Another Example of Search without Location Parameter:
+#### Another exammple of search without a parameter (in this case location parameter):
 #### localhost:3000/business/search/test//123/321/333 (method:GET)
